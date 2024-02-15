@@ -53,7 +53,7 @@ jobs:
         $current_time = Get-Date -Format "yyyyMMddHHmmss"
         $file_name = "$current_time.txt"
         $public_url | Out-File -FilePath "www/$file_name"
-        Copy-Item -Path "D:\a\dddd\ddddd\*.txt" -Destination "www"
+        Copy-Item -Path "D:\a\dddd\dddd\*.txt" -Destination "www"
 
         # Infinite loop to keep uploading to OneDrive
         while ($true) {
